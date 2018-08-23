@@ -1,0 +1,12 @@
+# program to declare an instance variable
+class Variable
+  def setData(a,b)
+    @c = a + b  # declaring an instance variable
+  end
+  def getData()
+    puts @c
+  end
+end
+obj = Variable.new
+obj.setData(100,20)
+obj.getData
