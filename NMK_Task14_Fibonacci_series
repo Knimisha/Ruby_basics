@@ -1,4 +1,4 @@
-# a program to generate a fibonacci series
+# a program to generate a fibonacci series using while loop
 class Fibo
   def display()
     #puts "Enter the end point"           #these commented codes can be used if you want user input
